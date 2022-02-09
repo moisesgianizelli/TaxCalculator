@@ -1,8 +1,4 @@
-# Author: Mark Kelly
-# date: 14/03/2021
 
-
-# gets the mortgage that the person is paying.
 def mortgagePayment():
     rate = 0.05 / 12
     durationInMonths = 30.0 * 12
@@ -124,10 +120,6 @@ def mainPropertyTax():
     print("€", theTotalAllowance)
 
 
-# Author: David Cuevas Diaz
-# Date:   3/14/2021
-
-
 # this function is used to process the calculations of the transportation for students.
 def processtransportcost():
     loopForFirstLevelStudentKm = True
@@ -247,9 +239,6 @@ def mainProcesstransporcost():
     processtransportcost()
 
 
-# Author: Moises Gianizelli
-# date: 13/03/2021
-# The program consist in calculate the charge for the extra usage.
 
 # Set function
 def usageCalculation():
@@ -289,9 +278,6 @@ def usageCalculation():
 def mainUsageCalculation():
     usageCalculation()
 
-
-# Author: Mark Kelly
-# date: 19/03/2021
 def main():
     # opening banner
     print("###############################")
